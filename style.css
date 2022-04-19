@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    height: 80%;
+    width: 80%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    margin-bottom: 1.5em;
+}
+
+.link{
+    text-transform: none;
+    color: black;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a {
+  background: 
+    linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0)),
+    linear-gradient(to right, rgb(247, 11, 215), rgb(247, 11, 215), rgb(247, 11, 215));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover,
+a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
